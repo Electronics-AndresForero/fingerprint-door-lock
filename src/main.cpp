@@ -11,8 +11,8 @@
 
 // Most relay modules are ACTIVE LOW (pulls IN LOW to activate).
 // If your relay activates when IN is HIGH, change to HIGH.
-#define RELAY_ACTIVE   LOW
-#define RELAY_INACTIVE HIGH
+#define RELAY_ACTIVE   HIGH  // after testing, it turns out to be active high.
+#define RELAY_INACTIVE LOW
 
 // How long the door stays unlocked (ms)
 #define UNLOCK_DURATION_MS 3000
