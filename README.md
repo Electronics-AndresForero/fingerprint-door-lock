@@ -1,16 +1,16 @@
-# 🔒 Fingerprint Door Lock
+# Fingerprint Door Lock
 
 ESP32-based biometric access control system for a classroom closet. Unlocks a 12V solenoid lock when an enrolled fingerprint is recognized, with LED visual feedback.
 
 ---
 
-## 📸 Demo
+## Demo
 
 > Finger placed → green LED → solenoid clicks open → locks after 3 seconds
 
 ---
 
-## 🧰 Hardware
+## Hardware
 
 | Component | Details |
 |-----------|---------|
@@ -24,7 +24,7 @@ ESP32-based biometric access control system for a classroom closet. Unlocks a 12
 
 ---
 
-## 📌 Pin Map
+## Pin Map
 
 | Signal | ESP32 GPIO |
 |--------|-----------|
@@ -40,7 +40,7 @@ ESP32-based biometric access control system for a classroom closet. Unlocks a 12
 
 ---
 
-## ⚡ Wiring Overview
+## Wiring Overview
 
 ```
 12V Adapter
@@ -59,7 +59,7 @@ ESP32 powered separately via USB 5V
 
 ---
 
-## 🗂 Branches
+## Branches
 
 | Branch | Description |
 |--------|-------------|
@@ -68,7 +68,7 @@ ESP32 powered separately via USB 5V
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - [VS Code](https://code.visualstudio.com/)
@@ -96,7 +96,7 @@ lib_deps = adafruit/Adafruit Fingerprint Sensor Library@^2.1.0
 
 ---
 
-## 📋 Serial Monitor Commands
+## Serial Monitor Commands
 
 Open Serial Monitor at **115200 baud** after flashing:
 
@@ -109,7 +109,7 @@ Open Serial Monitor at **115200 baud** after flashing:
 
 ---
 
-## 🔁 How It Works
+## How It Works
 
 1. Sensor's touch pin detects finger presence (GPIO23)
 2. UART communication captures and processes fingerprint image
@@ -141,7 +141,7 @@ FingerprintLock/
 
 ---
 
-## 🛠 Built With
+## Built With
 
 - [Arduino Framework](https://www.arduino.cc/)
 - [PlatformIO](https://platformio.org/)
